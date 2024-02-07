@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REMIX DJ MUSICAL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<center>
+  	<h3>APP WEB DJ COM IA
+	    <br>
+	    <span>OBSERVAÇÃO: Mova seu pulso esquerdo para cima e para baixo para controlar o volume.
+        Mova seu pulso direito para controlar a velocidade.</span>
+  	</h3>
+    <button onclick="play()">tocar</button>
+	<br><br>
+<div class="velocidadediv">
+  <img src="disk.gif">
+  <h3>Velocidade <span id="velocidade"></span></h3>
+</div>
+<div class="volumedediv">
+  <img src="disk.gif">
+  <h3>Volume <span id="volume"></span></h3>
+</div>
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>
