@@ -12,7 +12,6 @@ function setup(){
     canvas=createCanvas(400, 400)
     video=createCapture(VIDEO)
     canvas.center()
-    canvas.position(400,400)
     video.hide()
     posinet=ml5.poseNet(video, modelloade)
     posinet.on("pose",gotposes)
@@ -64,5 +63,5 @@ function play(){
 
 
 
-}
+
 
